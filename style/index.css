@@ -1,4 +1,303 @@
-.main-title{
-color:var(--main);
-font-family: "Hezaedrus-Medium";
+/* content */
+.wrapper-content-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content-container {
+}
+/* Intro */
+.module-intro {
+    width: 100%;
+    /* height: calc(100vh - 189px); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: end;
+}
+/* Intro InfoBlock */
+.intro-infobox {
+    width: 756px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+}
+.intro-title-container {
+    width: 100%;
+}
+.intro-title {
+    color: var(--text_color);
+    font-family: "Hezaedrus-Regular";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 100%; /* 46px */
+    letter-spacing: 1.38px;
+}
+.intro-name {
+    color: var(--text_color);
+    font-family: "Hezaedrus-Medium";
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 1.86px;
+    margin-top: 15px;
+}
+.intro-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.intro-button {
+    width: 305px;
+    height: 82px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-button p {
+    color: var(--text_color);
+    text-align: center;
+    font-family: "Hezaedrus-Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+}
+.buttonbox-more {
+    background: #6f66e5;
+}
+.buttonbox-editors {
+    border: 1px solid #6f66e5;
+    background: rgba(0, 0, 0, 0);
+}
+/* Intro Image Banner */
+
+.intro-image-banner {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+}
+.intro-image {
+}
+.item1 {
+    width: 100%;
+}
+.item2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* About Us && Mission*/
+.wrapper-aboutUs-container,
+.wrapper-mission-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.aboutUs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.aboutUs-image-container,
+.mission-image-container {
+    width: 443px;
+    flex-shrink: 0;
+}
+.aboutUs-image-container img,
+.mission-image-container img {
+    width: 100%;
+}
+.aboutUs-title-container,
+.mission-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    width: 622px;
+    flex-shrink: 0;
+    margin-bottom: 45px;
+}
+.aboutUs-title,
+.mission-title {
+    text-align: center;
+    color: var(--text_color);
+    font-family: "Hezaedrus-Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+.aboutUs-text {
+    min-height: 314px;
+    color: var(--text_color);
+    font-family: "Hezaedrus-Regular";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+}
+/* Mission Custom */
+
+.mission-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mission-text {
+    color: var(--text_color);
+    font-family: "Hezaedrus-Regular";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+}
+/* Editors */
+.wrapper-editors-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 250px;
+}
+.editors-container {
+    display: flex;
+    flex-direction: column;
+    gap: 132px;
+}
+.editors-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.editors-title {
+    width: 100%;
+    text-align: center;
+
+    color: var(--text_color);
+    font-family: "Hezaedrus-Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.editors-text {
+    width: 100%;
+    text-align: center;
+
+    color: var(--text_color);
+    font-family: "Hezaedrus-Regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.editors-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+.editors-card {
+    width: 330px;
+    min-height: 480px;
+    flex-shrink: 0;
+    background: #fff;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.editors-card-photo {
+    width: 330px;
+    height: 400px;
+
+    flex-shrink: 0;
+}
+
+.editors-card-textbox {
+    display: flex;
+    max-width: 330px;
+    min-width: 330px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+
+    flex-shrink: 0;
+}
+
+.editors-card-title-container {
+    max-width: 330px;
+    min-width: 330px;
+    display: flex;
+
+    height: 80px;
+    padding: 0px 32px;
+    margin-top: 7px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.editors-card-descriptions-container {
+    padding: 0px 32px;
+    transition: all 0.3s linear;
+}
+
+.personal-name {
+    color: var(--text_color);
+    text-align: center;
+    font-family: "Hezaedrus-Regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.personal-position {
+    color: var(--text_color);
+    text-align: center;
+    font-family: "Hezaedrus-Regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.personal-descriptions {
+    margin: 0;
+    text-align: left;
+    color: var(--text_color);
+    font-family: "Hezaedrus-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    overflow: hidden;
+    max-height: 20px; /* высота, которую нужно показать изначально */
+    transition: max-height 0.5s ease;
+}
+.show-more-button {
+    border: 0px;
+    background-color: unset;
+    text-decoration: underline;
+    cursor: pointer;
 }
