@@ -10,8 +10,8 @@
 .module-intro {
     width: 100%;
     /* height: calc(100vh - 189px); */
+    height: auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     align-items: end;
 }
@@ -72,9 +72,15 @@
     line-height: 100%;
 }
 .buttonbox-more {
-    background: #6f66e5;
+    background: var(--secondary);
+}
+.buttonbox-more:hover {
 }
 .buttonbox-editors {
+    border: 1px solid #6f66e5;
+    background: rgba(0, 0, 0, 0);
+}
+.buttonbox-editors:hover {
     border: 1px solid #6f66e5;
     background: rgba(0, 0, 0, 0);
 }
@@ -106,6 +112,7 @@
 .aboutUs-container {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
     align-items: end;
 }
 .aboutUs-image-container,
@@ -122,15 +129,14 @@
     display: flex;
     flex-direction: column;
     gap: 21px;
-    width: 622px;
-    flex-shrink: 0;
+    max-width: 622px;
     margin-bottom: 45px;
 }
 .aboutUs-title,
 .mission-title {
     text-align: center;
     color: var(--text_color);
-    font-family: "Hezaedrus-Regular";
+    font-family: "Commissioner";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -139,7 +145,7 @@
 .aboutUs-text {
     min-height: 314px;
     color: var(--text_color);
-    font-family: "Hezaedrus-Regular";
+    font-family: "Commissioner";
     font-size: 26px;
     font-style: normal;
     font-weight: 300;
@@ -154,7 +160,7 @@
 }
 .mission-text {
     color: var(--text_color);
-    font-family: "Hezaedrus-Regular";
+    font-family: "Commissioner";
     font-size: 26px;
     font-style: normal;
     font-weight: 300;
@@ -173,17 +179,28 @@
     flex-direction: column;
     gap: 132px;
 }
+.editors-card-slaider-container {
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    gap: 10px; cursor: pointer;
+    
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
 .editors-title-container {
     display: flex;
     flex-direction: column;
     gap: 9px;
 }
+
 .editors-title {
     width: 100%;
     text-align: center;
 
     color: var(--text_color);
-    font-family: "Hezaedrus-Regular";
+    font-family: "Commissioner";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -194,7 +211,7 @@
     text-align: center;
 
     color: var(--text_color);
-    font-family: "Hezaedrus-Regular";
+    font-family: "Commissioner";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -265,7 +282,7 @@
 .personal-name {
     color: var(--text_color);
     text-align: center;
-    font-family: "Hezaedrus-Regular";
+    font-family: "Commissioner";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -275,7 +292,7 @@
 .personal-position {
     color: var(--text_color);
     text-align: center;
-    font-family: "Hezaedrus-Regular";
+    font-family: "Commissioner";
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
@@ -285,7 +302,7 @@
     margin: 0;
     text-align: left;
     color: var(--text_color);
-    font-family: "Hezaedrus-Regular";
+    font-family: "Commissioner";
     font-size: 15px;
     font-style: normal;
     font-weight: 400;

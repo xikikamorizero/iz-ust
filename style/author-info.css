@@ -1,0 +1,94 @@
+.wrapper-editors-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.editors-container {
+}
+.module-intro {
+    display: flex;
+
+    width: 100%;
+    height: auto;
+
+    justify-content: space-between;
+    align-items: end;
+
+    flex-shrink: 0;
+}
+
+.module-intro p {
+    color: var(--text_color);
+    font-family: "Commissioner";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%; /* 26px */
+
+    max-width: 662px;
+    min-height: 332px;
+    /* background-color: red; */
+}
+.module-intro a {
+    color: var(--text_color);
+}
+.editors-spline {
+    width: 563px;
+}
+
+.module-buttons {
+    margin-top: 17vh;
+    margin-bottom: 10.75vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+}
+
+.module-buttons a figure {
+    margin: 15px 15px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.183vh;
+
+    width: 270px;
+    height: 270px;
+
+    border-radius: 10px;
+    background: rgba(111, 120, 215, 0.40);
+}
+
+.module-buttons a figure img {
+    margin-inline: 2.526vw;
+
+    height: 100px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.module-buttons a figure p {
+    color: var(--text_color);
+    text-align: center;
+    font-family: "Commissioner", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 210px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
