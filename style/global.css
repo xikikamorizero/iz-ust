@@ -35,7 +35,7 @@ a {
     --pink: #fbc9e2;
     --white: #faf9fd;
     --text_color: #000000;
-
+    --archive_link_color: #0563c1;
     --container: 90%;
 }
 /* глобальный контейнер */
@@ -73,8 +73,8 @@ a {
 }
 
 .logocontainer-logo {
-    width: 271px;
-    height: 189px;
+    width: 196px;
+    height: 189px; 
 }
 
 .header-menu {
@@ -200,7 +200,7 @@ a {
         right: 0;
         height: auto;
         padding: 0;
-        padding-top: 112px;
+        padding-top: 85px;
         padding-bottom: 40px;
         border-radius: 0;
         width: 100%;

@@ -22,7 +22,7 @@
     font-size: 26px;
     font-style: normal;
     font-weight: 300;
-    line-height: 120%; /* 26px */
+    line-height: 130%; /* 26px */
 
     max-width: 662px;
     width: 50%;
@@ -95,9 +95,10 @@
     flex-grow: 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1274px) {
     .module-intro {
         justify-content: center;
+        gap:40px;
     }
     .module-intro p{
         max-width: none;

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/feedback.css">
     <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="style/global.css" />
+    <link rel="icon" type="image/svg" href="assets/logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400&display=swap" rel="stylesheet">
@@ -22,7 +23,7 @@
                         <a href="index.html">
                             <img
                                 class="logocontainer-logo"
-                                src="assets/logo.png"
+                                src="assets/logo.svg"
                             />
                         </a>
                     </div>
@@ -127,7 +128,7 @@
                         </a>
                     </div>
 
-                    <img class="footer-logo" src="assets/logo.png" />
+                    <img class="footer-logo" src="assets/logo.svg" />
 
                     <div class="footer-textbox">
                         <div class="footer-textbox-box-1">
