@@ -6,9 +6,12 @@
         <link rel="stylesheet" href="style/global.css" />
         <link rel="stylesheet" href="style/index.css" />
         <link rel="stylesheet" href="style/fonts.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400&display=swap"
+            rel="stylesheet"
+        />
         <title>Главная</title>
     </head>
     <body>
@@ -31,6 +34,10 @@
                         <a href="editors.html">Авторам</a>
                         <a href="feedback.php">Контакты</a>
                     </nav>
+                    <!-- -->
+                    <div class="header_burger">
+                        <span></span>
+                    </div>
                 </div>
             </div>
             <!-- Main_Module -->
@@ -46,7 +53,7 @@
                                     <p class="intro-name">“ИЗ УСТ”</p>
                                 </div>
                                 <div class="intro-button-container">
-                                    <a href="">
+                                    <a href="#about-us-point">
                                         <figure
                                             class="buttonbox-more intro-button"
                                         >
@@ -54,7 +61,7 @@
                                         </figure>
                                     </a>
 
-                                    <a href="">
+                                    <a href="#editors-point">
                                         <figure
                                             class="buttonbox-editors intro-button"
                                         >
@@ -77,7 +84,7 @@
                     </div>
                 </div>
                 <!-- About Us -->
-                <div class="wrapper-aboutUs-container">
+                <div class="wrapper-aboutUs-container" id="about-us-point">
                     <div class="aboutUs-container container-global">
                         <div class="aboutUs-image-container">
                             <img src="assets/aboutUsImage.png" />
@@ -100,15 +107,16 @@
                 <div class="wrapper-mission-container">
                     <div class="mission-container container-global">
                         <div class="mission-title-container">
-                            <p class="mission-title">О нас:</p>
+                            <p class="mission-title">Миссия журнала:</p>
                             <p class="mission-text">
-                                В Междисциплинарном научном журнале «Из уст»
-                                бесплатно публикуются научные работы молодых
-                                ученых, поддерживаемых проектом «Менделеевская
-                                карта» при поддержке
-                                профессорско-преподавательского состава
-                                Уфимского университета науки и технологий, а
-                                также научных волонтеров со всей России
+                                Упростить и усовершенствовать процесс
+                                опубликования научных работ молодых учёных
+                                благодаря автоматизированной системе подачи
+                                научных работ в научно-издательской платформе
+                                «Из уст» а также благодаря таким проектом как
+                                «Менделеевская карта» развивать доступность
+                                размещения и популяризации научных мыслей в
+                                России.
                             </p>
                         </div>
                         <div class="mission-image-container">
@@ -116,8 +124,30 @@
                         </div>
                     </div>
                 </div>
+                <!-- History -->
+                <div class="wrapper-history-container">
+                    <div class="history-container container-global">
+                        <div class="history-image-container">
+                            <img src="assets/historyImage.png" />
+                        </div>
+                        <div class="history-title-container">
+                            <p class="history-title">Наша история:</p>
+                            <p class="history-text">
+                                Журнал издаётся с 2023 года. Публикуем мы два
+                                выпуска в год. Наш журнал доступен в электронном
+                                сетевом формате, создавая удобство чтения и
+                                исследования. Издается совместно Автономной
+                                некоммерческой организацией “Сетевое научное
+                                издательство “Из уст” и ФГБОУ ВО “Уфимский
+                                университет науки и технологий”. Адрес нашего
+                                издателя: 450076, Республика Башкортостан, город
+                                Уфа, улица Заки Валиди, дом 32.
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <!-- Editorial colleagues -->
-                <div class="wrapper-editors-container">
+                <div class="wrapper-editors-container" id="editors-point">
                     <div class="editors-container container-global">
                         <div class="editors-title-container">
                             <p class="editors-title">Редакционная коллегия</p>
@@ -132,26 +162,22 @@
 
                                 <div class="editors-card-textbox">
                                     <div class="editors-card-title-container">
-                                        <p class="personal-name">Test1</p>
+                                        <p class="personal-name">
+                                            Зарипов Шамиль Ришатович
+                                        </p>
                                         <p class="personal-position">
-                                            издатель
+                                            Директор Автономной некоммерческой
+                                            организации «Сетевое научное
+                                            издательство «Из уст».
                                         </p>
                                     </div>
-                                    <div
+                                    <!-- <div
                                         class="editors-card-descriptions-container"
                                     >
                                         <p class="personal-descriptions">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Integer
-                                            non quam ac nisl interdum interdum.
-                                            Sed enim turpis, ullamcorper ut ex
-                                            sit amet, eleifend fringilla lorem.
-                                            Morbi congue arcu a dui pulvinar, id
-                                            lhoncus eros lobortis. Nam id lectus
-                                            ultrices, malesuada orci sit amet,
-                                            consequat eros. Sed imperdiet sem et
-                                            erat commodo viverra. Quisque semper
-                                            lorem vel facilisis tincidunt.
+                                            Директор Автономной некоммерческой
+                                            организации «Сетевое научное
+                                            издательство «Из уст».
                                         </p>
                                         <button
                                             class="show-more-button"
@@ -159,232 +185,195 @@
                                         >
                                             Показать полностью
                                         </button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- 2 -->
-                            <div class="editors-card">
-                                <img class="editors-card-photo" src="" />
-
-                                <div class="editors-card-textbox">
-                                    <div class="editors-card-title-container">
-                                        <p class="personal-name">Test2</p>
-                                        <p class="personal-position">
-                                            издатель
-                                        </p>
-                                    </div>
-                                    <div
-                                        class="editors-card-descriptions-container"
-                                    >
-                                        <p class="personal-descriptions">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Integer
-                                            non quam ac nisl interdum interdum.
-                                            Sed enim turpis, ullamcorper ut ex
-                                            sit amet, eleifend fringilla lorem.
-                                            Morbi congue arcu a dui pulvinar, id
-                                            lhoncus eros lobortis. Nam id lectus
-                                            ultrices, malesuada orci sit amet,
-                                            consequat eros. Sed imperdiet sem et
-                                            erat commodo viverra. Quisque semper
-                                            lorem vel facilisis tincidunt.
-                                        </p>
-                                        <button
-                                            class="show-more-button"
-                                            type="button"
-                                        >
-                                            Показать полностью
-                                        </button>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
-                        <div
-                            class="editors-card-slaider-container"
-                            id="slaider"
-                        >
-                            <!-- 1 -->
-                            <div class="editors-card">
-                                <img class="editors-card-photo" src="" draggable="false" />
-
-                                <div class="editors-card-textbox">
-                                    <div class="editors-card-title-container">
-                                        <p class="personal-name">Test1</p>
-                                        <p class="personal-position">
-                                            издатель
-                                        </p>
-                                    </div>
-                                    <div
-                                        class="editors-card-descriptions-container"
-                                    >
-                                        <p class="personal-descriptions">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Integer
-                                            non quam ac nisl interdum interdum.
-                                            Sed enim turpis, ullamcorper ut ex
-                                            sit amet, eleifend fringilla lorem.
-                                            Morbi congue arcu a dui pulvinar, id
-                                            lhoncus eros lobortis. Nam id lectus
-                                            ultrices, malesuada orci sit amet,
-                                            consequat eros. Sed imperdiet sem et
-                                            erat commodo viverra. Quisque semper
-                                            lorem vel facilisis tincidunt.
-                                        </p>
-                                        <button
-                                            class="show-more-button"
-                                            type="button"
-                                        >
-                                            Показать полностью
-                                        </button>
-                                    </div>
+                        <div class="editors-card-slaide-controls">
+                            <div
+                                class="editors-card-slaider-container"
+                                id="slaider"
+                            >
+                                <img
+                                    class="editors-card-slaider-container-arrowL arrow"
+                                    src="assets/icon/arrowL.svg"
+                                />
+                                <img
+                                    class="editors-card-slaider-container-arrowR arrow"
+                                    src="assets/icon/arrowR.svg"
+                                />
+                                <!-- 1 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Шарафутдинов Ильдус Фанисович
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Доктор физико-математических наук,
+                                        профессор, заведующий кафедрой
+                                        теоретической физики, и.о. директора
+                                        Физико-технического института Уфимского
+                                        университета науки и технологий.
+                                    </p>
                                 </div>
-                            </div>
-                            <!-- 2 -->
-                            <div class="editors-card" id="slaider">
-                                <img class="editors-card-photo" src="" draggable="false"/>
-
-                                <div class="editors-card-textbox">
-                                    <div class="editors-card-title-container">
-                                        <p class="personal-name">Test1</p>
-                                        <p class="personal-position">
-                                            издатель
-                                        </p>
-                                    </div>
-                                    <div
-                                        class="editors-card-descriptions-container"
-                                    >
-                                        <p class="personal-descriptions">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Integer
-                                            non quam ac nisl interdum interdum.
-                                            Sed enim turpis, ullamcorper ut ex
-                                            sit amet, eleifend fringilla lorem.
-                                            Morbi congue arcu a dui pulvinar, id
-                                            lhoncus eros lobortis. Nam id lectus
-                                            ultrices, malesuada orci sit amet,
-                                            consequat eros. Sed imperdiet sem et
-                                            erat commodo viverra. Quisque semper
-                                            lorem vel facilisis tincidunt.
-                                        </p>
-                                        <button
-                                            class="show-more-button"
-                                            type="button"
-                                        >
-                                            Показать полностью
-                                        </button>
-                                    </div>
+                                <!-- 2 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Уразбахтина Юлия Олеговна
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Кандидат технических наук, доцент,
+                                        директор Института электротехнического
+                                        инжиниринга Уфимского университета науки
+                                        и технологий;
+                                    </p>
                                 </div>
-                            </div>
-                            <!-- 3 -->
-                            <div class="editors-card">
-                                <img class="editors-card-photo" src="" draggable="false"/>
-
-                                <div class="editors-card-textbox">
-                                    <div class="editors-card-title-container">
-                                        <p class="personal-name">Test1</p>
-                                        <p class="personal-position">
-                                            издатель
-                                        </p>
-                                    </div>
-                                    <div
-                                        class="editors-card-descriptions-container"
-                                    >
-                                        <p class="personal-descriptions">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Integer
-                                            non quam ac nisl interdum interdum.
-                                            Sed enim turpis, ullamcorper ut ex
-                                            sit amet, eleifend fringilla lorem.
-                                            Morbi congue arcu a dui pulvinar, id
-                                            lhoncus eros lobortis. Nam id lectus
-                                            ultrices, malesuada orci sit amet,
-                                            consequat eros. Sed imperdiet sem et
-                                            erat commodo viverra. Quisque semper
-                                            lorem vel facilisis tincidunt.
-                                        </p>
-                                        <button
-                                            class="show-more-button"
-                                            type="button"
-                                        >
-                                            Показать полностью
-                                        </button>
-                                    </div>
+                                <!-- 3 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Гришин Константин Евгеньевич
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Доктор экономических наук, доцент, и.о.
+                                        директора Института экономики,
+                                        управления и бизнеса Уфимского
+                                        университета науки и технологий;
+                                    </p>
                                 </div>
-                            </div>
-                            <!-- 4 -->
-                            <div class="editors-card">
-                                <img class="editors-card-photo" src="" draggable="false"/>
-
-                                <div class="editors-card-textbox">
-                                    <div class="editors-card-title-container">
-                                        <p class="personal-name">Test1</p>
-                                        <p class="personal-position">
-                                            издатель
-                                        </p>
-                                    </div>
-                                    <div
-                                        class="editors-card-descriptions-container"
-                                    >
-                                        <p class="personal-descriptions">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Integer
-                                            non quam ac nisl interdum interdum.
-                                            Sed enim turpis, ullamcorper ut ex
-                                            sit amet, eleifend fringilla lorem.
-                                            Morbi congue arcu a dui pulvinar, id
-                                            lhoncus eros lobortis. Nam id lectus
-                                            ultrices, malesuada orci sit amet,
-                                            consequat eros. Sed imperdiet sem et
-                                            erat commodo viverra. Quisque semper
-                                            lorem vel facilisis tincidunt.
-                                        </p>
-                                        <button
-                                            class="show-more-button"
-                                            type="button"
-                                        >
-                                            Показать полностью
-                                        </button>
-                                    </div>
+                                <!-- 4 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Елизарьев Алексей Николаевич
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Кандидат географических наук, доцент,
+                                        и.о. директора Института химии и защиты
+                                        в чрезвычайных ситуациях Уфимского
+                                        университета науки и технологий;
+                                    </p>
                                 </div>
-                            </div>
-                            <!-- 5 -->
-                            <div class="editors-card">
-                                <img class="editors-card-photo" src="" draggable="false"/>
-
-                                <div class="editors-card-textbox">
-                                    <div class="editors-card-title-container">
-                                        <p class="personal-name">Test1</p>
-                                        <p class="personal-position">
-                                            издатель
-                                        </p>
-                                    </div>
-                                    <div
-                                        class="editors-card-descriptions-container"
-                                    >
-                                        <p class="personal-descriptions">
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Integer
-                                            non quam ac nisl interdum interdum.
-                                            Sed enim turpis, ullamcorper ut ex
-                                            sit amet, eleifend fringilla lorem.
-                                            Morbi congue arcu a dui pulvinar, id
-                                            lhoncus eros lobortis. Nam id lectus
-                                            ultrices, malesuada orci sit amet,
-                                            consequat eros. Sed imperdiet sem et
-                                            erat commodo viverra. Quisque semper
-                                            lorem vel facilisis tincidunt.
-                                        </p>
-                                        <button
-                                            class="show-more-button"
-                                            type="button"
-                                        >
-                                            Показать полностью
-                                        </button>
-                                    </div>
+                                <!-- 5 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Вавилов Вячеслав Евгеньевич
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Доктор технических наук, профессор,
+                                        заведующий кафедры электромеханики,
+                                        директор Передовой инженерной школы
+                                        «Моторы будущего» Уфимского университета
+                                        науки и технологий;
+                                    </p>
                                 </div>
+                                <!-- 6 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Ахмедзянов Дмитрий Альбертович
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Доктор технических наук, профессор,
+                                        профессор кафедры авиационных
+                                        двигателей, декан Факультета авиационных
+                                        двигателей, энергетики и транспорта;
+                                    </p>
+                                </div>
+                                <!-- 7 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Аслаев Сагит Тухватович
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Кандидат педагогических наук, профессор,
+                                        заведующий кафедры физического
+                                        воспитания Института природы и человека
+                                        Уфимского университета науки и
+                                        технологий;
+                                    </p>
+                                </div>
+                                <!-- 8 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Газизов Рафаэль Аркадьевич
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Доктор филологических наук, профессор,
+                                        и.о. директора Института гуманитарных и
+                                        социальных наук;
+                                    </p>
+                                </div>
+                                <!-- 9 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Галиев Фарит Хатипович
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Доктор юридических наук., профессор,
+                                        заведующий кафедры теории государства и
+                                        права Института права Уфимского
+                                        университета науки и технологий;
+                                    </p>
+                                </div>
+                                <!-- 10 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Иткулова Лэйсян Ахметовна
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Доктор философских наук, профессор,
+                                        заведующая кафедрой философии и
+                                        культурологии Института гуманитарных и
+                                        социальных наук Уфимского университета
+                                        науки и технологий;
+                                    </p>
+                                </div>
+                                <!-- 11 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Кривошеева Олеся Александровна
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Доктор физико-математических наук,
+                                        профессор, и.о. директора Института
+                                        информатики, математики и роботехники;
+                                    </p>
+                                </div>
+                                <!-- 12 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Уразова Амина Ильдусовна
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Кандидат исторических наук, доцент,
+                                        директор Института истории и
+                                        государственного управления Уфимского
+                                        университета науки и технологий;
+                                    </p>
+                                </div>
+                                <!-- 13 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Шарафутдинова Люция Ахтямовна
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Доктор биологических наук, профессор,
+                                        и.о. директора Института природы и
+                                        человека Уфимского университета науки и
+                                        технологий;
+                                    </p>
+                                </div>
+                                <!-- 14 -->
+                                <div class="editors-card-secondary">
+                                    <p class="editors-card-name">
+                                        Хусаинов Юлдаш Гамирович
+                                    </p>
+                                    <p class="editors-card-descriptions">
+                                        Кандидат технических наук, доцент,
+                                        директор Института технологий и
+                                        материалов Уфимского университета науки
+                                        и технологий;
+                                    </p>
+                                </div>
+                                <!--  -->
                             </div>
-                            <!-- 6 -->
                         </div>
                     </div>
                 </div>
@@ -424,8 +413,10 @@
                     </div>
                 </div>
             </div>
-            <script src="js/showMore.js"></script>
-            <script src="js/slaiderEditors.js"></script>
         </div>
+        <script src="js/jquery-3.7.0.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/showMore.js"></script>
+        <script src="js/slaiderEditors.js"></script>
     </body>
 </html>

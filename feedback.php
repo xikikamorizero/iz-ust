@@ -33,6 +33,10 @@
                         <a href="editors.html">Авторам</a>
                         <a href="feedback.php">Контакты</a>
                     </nav>
+                     <!-- -->
+                     <div class="header_burger">
+                        <span></span>
+                    </div>
                 </div>
             </div>
  <!-- Main_Module -->
