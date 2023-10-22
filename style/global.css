@@ -35,6 +35,7 @@ a {
     --pink: #fbc9e2;
     --white: #faf9fd;
     --text_color: #000000;
+    --header_menu_color:#1f1717ca;
     --archive_link_color: #0563c1;
     --container: 90%;
 }
@@ -97,7 +98,7 @@ a {
 }
 
 .header-menu a {
-    color: var(--text_color);
+    color: var(--header_menu_color);
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
@@ -106,6 +107,9 @@ a {
     display: flex;
     align-items: center;
     text-align: center;
+}
+.header-menu a:hover{
+    color: var(--text_color);
 }
 .header_burger {
     display: none;
@@ -182,7 +186,7 @@ a {
         padding-top: 50px;
     }
     .logocontainer-logo {
-        width: 104px;
+        width: 74px;
         height: 72px;
         position: relative;
         z-index: 4;

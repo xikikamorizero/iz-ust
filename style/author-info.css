@@ -107,7 +107,7 @@
         min-height: max-content;
     }
     .editors-spline {
-        width: 100%;
+        width: 88%;
     }
 }
 @media screen and (max-width: 900px) {
