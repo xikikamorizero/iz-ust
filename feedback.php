@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="style/feedback.css">
     <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="style/global.css" />
-    <link rel="icon" type="image/svg" href="assets/logo.svg" />
+    <link rel="icon" type="image/svg" href="assets/icon/logoIcon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/svg" href="images/logo.svg" />
 </head>
 <body>
     
